@@ -1,0 +1,33 @@
+GlobaLeaks Desktop is a Whistleblowing Submission application for Windows, Mac OSX and Linux that provide built in Anonimity and Data encryption.
+
+The application is a bundle of several technologies glued together:
+ * Tor Browser Bundle (TBB)
+ * Firefox PGP encryption plug-in (
+ * Customization to make everything well integrated,usable, pre-configurable (OEM) for interaction with a GlobaLeaks site
+
+
+GL Desktop provide the following features:
+ * Web Browser is secured (hardened Aurora from TBB
+ * Anonimity is enforced trough the buse of Tor.
+ * Data encryption can be enforced trough the use of client-side PGP encryption
+
+Usability improvements
+ * Start page asking the user to:
+  * Insert a GlobaLeaks site hostname
+  * Browse/select a GlobaLeaks site from LeakDirectory.org
+  * If the GL-Desktop is pre-configured, directly load the pre-configured GL site interface
+ * Windows Usability Improvement of TBB: https://lists.torproject.org/pipermail/tor-talk/2011-October/021639.html
+
+Security improvements
+ * Incorporate PGP Encryption trough NPAPI-based PGP plug-in: https://github.com/kylehuff/webpg-npapi
+ * Strip down the browser functionality and user-interactions available: This browser is not for general browser but only for GlobaLeaks Submission use.
+ 
+Tor Integration Goals:
+ * Whenever possible try to make major customizations (usability improvements & PGP Support) included into Tor Browser Bundle as a  default feature set
+  * Tor Talk PGP Plug-in Inclusion Mailing List Threads
+   * https://lists.torproject.org/pipermail/tor-talk/2011-October/021627.html
+   * https://lists.torproject.org/pipermail/tor-talk/2011-October/021642.html
+  * Windows usability Improvements Mailing List Threads:
+   * https://lists.torproject.org/pipermail/tor-talk/2011-October/021639.html
+
+
